@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 1400px;
+    margin: 0 auto;
+    
+}
+
+.menu-nav{
+    text-decoration: none;
+    list-style: none;
+    color: #707070;
+    padding: 0 25px;
+}
+.c-menu .active{
+    color: #FFD019;
+}
+
+.c-menu a:hover {
+    color: #FFD019;
+}
+.c-menu .active:hover{
+    color: #707070;
+}
+.d-flex{
+    width: 30%;
+
+}
+.d-flex a {
+    left: -35px;
+    top: 10px;
+    position: relative;
+    font-size: 17px;
+    color: #707070bf;
+}
+.d-flex input {
+    background-color: #F8F8F8;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+.form-control:focus {
+    background-color: #F8F8F8;
+    border-color: inherit;
+    box-shadow: none;
+}
+
+/* banner */
+.banner{
+    margin: 10px 0px;
+    min-height: 700px;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+}
+.banner{
+   background-image: url(../images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: left bottom, 0% 0%; 
+}
+.banner-text{
+    margin: auto 0;
+}
+.banner .row .img-bg{
+    background-image: url(../images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: left bottom, 0% 0%; 
+}
+.banner .row img{
+    width: 100%;
+}
+.banner-text h1 {
+    color: #FFD019;
+}
+.banner-text p {
+    margin: 20px 0px;
+    padding-right: 20%;
+}
+
+.banner-text button {
+    border: 1px solid transparent;
+    text-decoration: none;
+    padding: 12px 22px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 6px;
+}
+.banner-text button:hover {
+    border: 1px solid #000;
+    color: #000;
+    background-color: #fff;
+}
+.carousel-indicators {
+    bottom: -20% !important;
+
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #424141;
+    margin: 0 7px;
+}
+.carousel-indicators .active {
+
+    background-color: #FFD019;
+}
+
+
+
+/* shoes */
+
+.smartphone{
+    margin: 50px 0px;
+}
+.cap{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.cap a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+}
+.cap a:hover{
+    color: #FFD019;
+
+}
+
+.card{
+    text-align: center;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card p {
+    padding: 0 5%;
+    font-size: 14px;
+    margin: 20px 0px 40px 0px;
+}
+.card img {
+    padding: 5%;
+    width: 100%;
+    padding: 10% 5% 0% 5%;
+}
+.card h4{
+    margin-bottom: 20px;
+}
+.card:nth-child(2){
+    margin: 0px 30px !important;
+}
+.card a {
+    border: 1px solid transparent;
+    text-decoration: none;
+    padding: 12px 22px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 6px;
+    margin: 30px 0px;
+}
+.card a:hover {
+    border: 1px solid #000;
+    color: #000;
+    background-color: #fff;
+}
+i{
+    margin-left: 10px;
+}
+
+/* laptop */
+.laptops{
+    margin: 50px 0px;
+}
+/* categories */
+.categories{
+    min-height: 650px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.categories .cap2 h1 {
+    margin: 0 auto;
+    text-align: center;
+    width: 20%;
+    border-bottom: 4px solid;
+    border-image: linear-gradient(90deg, rgba(255,208,25,1) 25%, rgba(248,77,7,1) 100%);
+    border-image-slice: 1;
+    padding-bottom: 15px;
+    border-radius: 50%;
+}
+
+.categories .row{
+    margin-top: 50px;
+}
+.categories .row1{
+    display: flex;
+}
+.categories .icon1{
+    margin: auto 0;
+}
+.categories .icon1 img {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    width: 80%;
+    border-radius: 12px;
+    padding: 15%;
+    
+    
+}
+
+.categories .icon2 img {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    width: 80%;
+    border-radius: 12px;
+    padding: 15%;
+    margin: 0px 0px 35px 20px;
+    
+}
+
+.categories .icon3 img {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    width: 80%;
+    padding: 15%;
+    margin: 35px 0px 0px 20px;    
+}
+
+.categories .f-img {
+    margin: auto 0;
+}
+
+.categories .f-img img{
+    width: 100%;    
+    border-radius: 12px;   
+}

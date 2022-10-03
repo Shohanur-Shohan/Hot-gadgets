@@ -8,9 +8,214 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    <title>Hot-gadgets</title>
+    <title>Panda-ecommerce</title>
 </head>
 <body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse c-menu" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li>
+              <a class="menu-nav active" aria-current="page" href="#">Home</a>
+            </li>
+            <li>
+              <a class="menu-nav" href="#">Product</a>
+            </li>
+            <li>
+              <a class="menu-nav" href="#">About Us</a>
+            </li>
+            <li>
+              <a class="menu-nav" href="#">Contact us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </form>
+        </div>
+      </div>
+    </nav>  
+  </header>
+
+  <section class="banner">
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-6 banner-text">
+                <h1>Macbook Pro</h1>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature. Lorem Ipsum is not simply random text.</p>
+                
+                <a href="#">
+                  <button>BUY NOW<i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                </a>
+              </div>
+              <div class="col-md-6 img-bg">
+                <img src="images/banner-products/product-1.png" alt="Xbox">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-6 banner-text">
+                <h1>Amazon Alexa</h1>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature. Lorem Ipsum is not simply random text.</p>
+                
+                <a href="#">
+                  <button>BUY NOW<i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                </a>
+              </div>
+              <div class="col-md-6  img-bg">
+                <img src="images/banner-products/slider-1.png" alt="Xbox">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-6 banner-text">
+                <h1>JBL Soundbox</h1>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature. Lorem Ipsum is not simply random text.</p>
+                <a href="#">
+                  <button>BUY NOW<i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                </a>
+                
+              </div>
+              <div class="col-md-6 img-bg">
+                <img src="images/banner-products/slider-3.png" alt="Xbox">
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+
+  <!-- smatrphone section -->
+  <section class="smartphone">
+    <div class="container">
+      <div class="cap">
+        <h2>Smartphones</h2>
+        <a href="#">See All</a>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Iphone 12 pro Max</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <h4>$999</h4>
+            <a href="#">BUY NOW<i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Samsung Note 10+</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <h4>$799</h4>
+            <a href="#">BUY NOW<i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Xiomi X2 Pro</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+            <h4>$399</h4>
+            <a href="#">BUY NOW<i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- laptops section -->
+    <section class="laptops">
+      <div class="container">
+        <div class="cap">
+          <h2>Laptops</h2>
+          <a href="#">See All</a>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Biaowang Backpack </h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <h4>$999</h4>
+              <a href="#">BUY NOW<i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Biaowang Backpack </h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <h4>$1099</h4>
+              <a href="#">BUY NOW<i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Biaowang Backpack </h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <h4>$799</h4>
+              <a href="#">BUY NOW<i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="container">
+        <div class="cap2">
+          <h1>Categories</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row1">
+              <div class="col-6 icon1">
+                <img src="images/categories/bag.png" alt="">
+              </div>
+
+                <div class="col-6">
+                  <div class="icon2">
+                    <img src="images/categories/shoe.png" alt="">
+                  </div>
+                  <div class="icon3">
+                    <img src="images/categories/perfume.png" alt="">
+                  </div>
+                </div>
+  
+            </div>
+          </div>
+          <div class="col-md-6 f-img">
+            <img src="images/categories/pale-order.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
 
 
     
